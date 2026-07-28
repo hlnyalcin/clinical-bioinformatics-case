@@ -1,0 +1,62 @@
+/home/helin/miniconda3/envs/quast_env/bin/quast.py results/flye/assembly.fasta -o results/quast
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43 (linux_64)
+  Python version: 3.10.20
+  CPUs number: 8
+
+Started: 2026-07-28 17:09:30
+
+Logging to /home/helin/clinical_case/results/quast/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/helin/clinical_case
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  results/flye/assembly.fasta ==> assembly
+
+2026-07-28 17:09:30
+Running Basic statistics processor...
+  Contig files: 
+    assembly
+  Calculating N50 and L50...
+    assembly, N50 = 5306074, L50 = 1, auN = 4786246.0, Total length = 5896334, GC % = 56.79, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/helin/clinical_case/results/quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/helin/clinical_case/results/quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/helin/clinical_case/results/quast/basic_stats/GC_content_plot.pdf
+  Drawing assembly GC content plot...
+    saved to /home/helin/clinical_case/results/quast/basic_stats/assembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-07-28 17:09:31
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-07-28 17:09:31
+RESULTS:
+  Text versions of total report are saved to /home/helin/clinical_case/results/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/helin/clinical_case/results/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/helin/clinical_case/results/quast/report.html
+  PDF version (tables and plots) is saved to /home/helin/clinical_case/results/quast/report.pdf
+  Icarus (contig browser) is saved to /home/helin/clinical_case/results/quast/icarus.html
+  Log is saved to /home/helin/clinical_case/results/quast/quast.log
+
+Finished: 2026-07-28 17:09:31
+Elapsed time: 0:00:01.454352
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
