@@ -18,7 +18,7 @@ Species identification was performed using the NCBI BLAST nucleotide database. B
 
 Sequence Typing
 
-MLST analysis assigned the isolate to Sequence Type 258 (ST258). This sequence type is commonly associated with multidrug-resistant clinical isolates of Klebsiella pneumoniae and supported the species identification obtained through BLAST.
+MLST analysis assigned the isolate to Sequence Type 258 (ST258). This sequence type is commonly associated with multidrug-resistant clinical isolates of Klebsiella pneumoniae (Pitout & Nordmann, 2015). The MLST result was consistent with the species identification obtained through BLAST.
 
 Antimicrobial Resistance Analysis
 
