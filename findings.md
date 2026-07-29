@@ -30,7 +30,7 @@ PlasmidFinder detected multiple plasmid replicons, including IncI2, IncFIB(K), I
 
 Virulence Analysis
 
-Kleborate identified the isolate as Klebsiella pneumoniae ST258 with a virulence score of 0, indicating that no major hypervirulence-associated genes were detected. The isolate carried the KL107 (wzi154) capsule type and the O13 O-antigen type. Kleborate also reported a resistance score of 2, indicating resistance across 10 antimicrobial classes. These findings suggest that the isolate belongs to a multidrug-resistant lineage rather than a hypervirulent one (Wyres & Holt, 2018).
+Kleborate identified the isolate as Klebsiella pneumoniae ST258 with a virulence score of 0, indicating that no major hypervirulence-associated genes were detected. The isolate carried the KL107 (wzi154) capsule type and the O13 O-antigen type. Kleborate also reported a resistance score of 2, indicating resistance across 10 antimicrobial classes. These findings suggest that the isolate belongs to a multidrug-resistant lineage rather than a hypervirulent one (Pitout & Nordmann, 2015).
 
 Interpretation
 
