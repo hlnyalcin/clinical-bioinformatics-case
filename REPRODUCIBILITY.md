@@ -46,11 +46,6 @@ The same input dataset should be used to repeat the analysis.
 
 - NCBI BLAST Web Interface (manual species identification)
 
-### Version control
-
-- Git
-- GitHub
-
 ## Running the Workflow
 
 After setting up the analysis environment, creating the `clinical_amr` Conda environment, installing the required software, and placing the input FASTQ file in the `data/` directory, run:
