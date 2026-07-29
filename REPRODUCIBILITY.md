@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This document explains how the analysis presented in this project can be repeated using the provided code and documentation. The workflow is implemented as a Bash shell script (`code/run_analysis.sh`), while the analysis steps, results, and interpretation are documented in `findings.md` and `README.md`.
+This document describes how the analysis presented in this project can be repeated using the provided code and documentation. The workflow is implemented as a Bash shell script (`code/run_analysis.sh`), while the analysis methods, results, and interpretation are described in `README.md` and `findings.md`.
 
 ## Analysis Environment
 
-The analysis was performed on a Windows computer using **Ubuntu through Windows Subsystem for Linux (WSL)**. All command-line analyses were executed in the **Bash shell**, and software dependencies were managed with **Miniconda** in a dedicated Conda environment (`clinical_amr`).
+The project was developed on a Windows computer. Windows PowerShell was used for system setup, file management, Git operations, and launching Ubuntu through Windows Subsystem for Linux (WSL). The bioinformatics analyses were performed in Ubuntu (WSL) using the Bash shell. Software dependencies were managed with Miniconda in a dedicated Conda environment (`clinical_amr`).
 
 ## Input Data
 
@@ -16,13 +16,14 @@ The workflow uses the following Oxford Nanopore sequencing dataset:
 data/unknown_isolate.fastq.gz
 ```
 
-The same input dataset should be used to repeat the analysis described in this project.
+The same input dataset should be used to repeat the analysis.
 
 ## Software and Resources
 
-### Analysis environment
+### Operating system and analysis environment
 
 - Windows
+- Windows PowerShell
 - Windows Subsystem for Linux (WSL)
 - Ubuntu
 - Bash
@@ -41,7 +42,7 @@ The same input dataset should be used to repeat the analysis described in this p
 - MOB-suite
 - Kleborate
 
-### External resource
+### Online resource
 
 - NCBI BLAST Web Interface (manual species identification)
 
@@ -52,14 +53,14 @@ The same input dataset should be used to repeat the analysis described in this p
 
 ## Running the Workflow
 
-After setting up the Ubuntu WSL environment, creating the Conda environment, installing the required software, and placing the input FASTQ file in the `data/` directory, navigate to the `code` directory and run:
+After setting up the analysis environment, creating the `clinical_amr` Conda environment, installing the required software, and placing the input FASTQ file in the `data/` directory, run:
 
 ```bash
 cd code
 bash run_analysis.sh
 ```
 
-The script performs each analysis step sequentially and stores the generated output files in the `results/` directory.
+The script performs the automated analysis steps and stores the generated output files in the `results/` directory.
 
 ## Workflow Summary
 
@@ -90,4 +91,4 @@ Running the workflow generates:
 - Plasmid analysis results
 - Virulence profiling results
 
-The provided code, documentation, and workflow description contain sufficient information for another researcher to repeat the analysis using the same input data, software, and analysis environment. Because species identification requires a manual BLAST search, this step should be performed as described above. Under the same conditions, the workflow is expected to produce comparable results.
+The provided code, documentation, and workflow description contain sufficient information for another researcher to repeat the analysis using the same input data, software, and analysis environment. Because species identification requires a manual BLAST search, this step should be performed as described above. Under the same conditions, comparable results are expected.
