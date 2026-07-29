@@ -15,7 +15,7 @@ clinical_case/
 ├── findings.md
 ├── README.md
 └── results/
-    ├── assembly/
+    ├── Flye/
     ├── quast/
     ├── nanoplot/
     ├── amrfinder/
