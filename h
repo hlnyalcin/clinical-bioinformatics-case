@@ -1,3 +1,5 @@
+## Note to Professor Kılıç
+
 Dear Professor Kılıç,
 
 We identified the organism as Klebsiella pneumoniae, a bacterium that commonly causes healthcare-associated infections such as pneumonia, bloodstream infections, urinary tract infections, and wound infections.
