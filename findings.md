@@ -28,11 +28,15 @@ Plasmid Analysis
 
 PlasmidFinder detected multiple plasmid replicons, including IncI2, IncFIB(K), IncFII(K), IncFII(Yp), and IncR. AMRFinderPlus identified the blaKPC-3 gene on contig_15, and MOB-suite classified this contig as a plasmid. Together with the IncI2 replicon detected by PlasmidFinder, these findings indicate that blaKPC-3 is located on an IncI2 plasmid rather than on the chromosome. Because plasmids can be transferred between bacteria through horizontal gene transfer, the plasmid location of blaKPC-3 suggests that this carbapenem resistance gene has the potential to spread to other bacteria (Carattoli et al., 2014).
 
+Virulence Analysis
+
 Kleborate identified the isolate as Klebsiella pneumoniae ST258 with a virulence score of 0, indicating that no major hypervirulence-associated genes were detected. The isolate carried the KL107 (wzi154) capsule type and the O13 O-antigen type. Kleborate also reported a resistance score of 2, indicating resistance across 10 antimicrobial classes. These findings suggest that the isolate belongs to a multidrug-resistant lineage rather than a hypervirulent one (Wyres & Holt, 2018).
 
-The combined results identified the unknown isolate as Klebsiella pneumoniae ST258, a sequence type commonly associated with multidrug-resistant hospital infections (Wyres & Holt, 2018). AMRFinderPlus detected multiple antimicrobial resistance genes, including blaKPC-3, which encodes a carbapenemase associated with resistance to carbapenem antibiotics (Munoz-Price et al., 2013), together with several additional genes associated with resistance to other antimicrobial classes. These findings indicate that the isolate carries multiple antimicrobial resistance mechanisms, although phenotypic antimicrobial susceptibility testing is required to confirm the predicted resistance profile (Feldgarden et al., 2021).
+Interpretation
 
-PlasmidFinder and MOB-suite showed that blaKPC-3 is located on an IncI2 plasmid, and BLAST analysis supported this result. Because plasmids can facilitate the transfer of resistance genes between bacteria, plasmid-associated carbapenem resistance is an important concern in clinical settings (Carattoli et al., 2014).
+The combined results identified the unknown isolate as Klebsiella pneumoniae ST258, a sequence type commonly associated with multidrug-resistant hospital infections (Wyres & Holt, 2018). AMRFinderPlus detected multiple antimicrobial resistance genes, including blaKPC-3, which encodes a carbapenemase associated with resistance to carbapenem antibiotics (Munoz-Price et al., 2013), together with several additional genes associated with resistance to other antimicrobial classes. These findings suggest that the isolate carries multiple antimicrobial resistance mechanisms, although phenotypic antimicrobial susceptibility testing is required to confirm the predicted resistance profile (Feldgarden et al., 2021).
+
+PlasmidFinder and MOB-suite showed that blaKPC-3 is located on an IncI2 plasmid. Because plasmids can facilitate the transfer of resistance genes between bacteria, plasmid-associated carbapenem resistance is an important concern in clinical settings (Carattoli et al., 2014).
 
 Although no major hypervirulence-associated genes were detected, the isolate remains clinically significant because it belongs to the high-risk ST258 lineage and carries numerous antimicrobial resistance genes. This is consistent with previous studies showing that ST258 isolates are generally multidrug resistant rather than hypervirulent (Wyres & Holt, 2018).
 
