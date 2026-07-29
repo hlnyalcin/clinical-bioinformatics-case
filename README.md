@@ -32,12 +32,14 @@ clinical_case/
 
 ## Software and Online Resources
 
-The analysis was performed on **Ubuntu running through Windows Subsystem for Linux (WSL)**. Software dependencies were managed using **Miniconda** in a dedicated Conda environment (`clinical_amr`).
+The project was developed on a Windows computer. Windows PowerShell was used for system setup, file management, Git operations, and launching Ubuntu through Windows Subsystem for Linux (WSL). The bioinformatics analyses were performed in Ubuntu (WSL) using the Bash shell. Software dependencies were managed with Miniconda in a dedicated Conda environment (`clinical_amr`).
 
-The following software tools and online resources were used during the analysis:
+The following software tools and online resources were used during the analysis.
 
-### Analysis environment
+### Operating system and analysis environment
 
+- Windows
+- Windows PowerShell
 - Windows Subsystem for Linux (WSL)
 - Ubuntu
 - Bash
@@ -59,7 +61,6 @@ The following software tools and online resources were used during the analysis:
 ### Online resource
 
 - NCBI BLAST Web Interface (manual species identification)
-
 ## Running the Analysis
 
 Clone the repository and navigate to the project root directory.
