@@ -21,13 +21,15 @@ clinical_case/
 
 ## Software
 
-The following software was used during the analysis:
+## Software and Online Resources
+
+The following software tools and online resources were used during the analysis:
 
 - SeqKit
 - NanoPlot
 - Flye
 - QUAST
-- BLAST
+- NCBI BLAST
 - MLST
 - AMRFinderPlus
 - PlasmidFinder
