@@ -1,7 +1,5 @@
 # BLAST Summary
 
-BLAST result screenshots are stored in this folder.
-
 ## Query
 
 - contig_4 (first 100,000 bp)
