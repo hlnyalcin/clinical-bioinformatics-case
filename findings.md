@@ -45,3 +45,18 @@ Overall, the combined use of multiple bioinformatics tools made it possible to i
 Conclusion
 
 This analysis successfully characterized an unknown bacterial isolate using an Oxford Nanopore whole-genome sequencing workflow. The isolate was identified as Klebsiella pneumoniae ST258 and was found to carry multiple antimicrobial resistance genes, including the carbapenemase gene blaKPC-3. Plasmid analysis indicated that blaKPC-3 is located on an IncI2 plasmid, suggesting the potential for horizontal gene transfer. Overall, this workflow demonstrates how whole-genome sequencing and bioinformatics tools can be used to identify bacterial pathogens and investigate antimicrobial resistance, plasmids, and other clinically important genomic features.
+
+References
+
+Carattoli, A., Zankari, E., García-Fernández, A., Larsen, M. V., Lund, O., Villa, L., Møller Aarestrup, F., & Hasman, H. (2014). In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing. Antimicrobial Agents and Chemotherapy, 58(7), 3895–3903. https://doi.org/10.1128/AAC.02412-14
+
+Feldgarden, M., Brover, V., Gonzalez-Escalona, N., Frye, J. G., Haendiges, J., Haft, D. H., Hoffmann, M., Pettengill, J. B., Prasad, A. B., Tillman, G. E., Tyson, G. H., & Klimke, W. (2021). AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence. Scientific Reports, 11(1), 12728. https://doi.org/10.1038/s41598-021-91456-0
+
+Gurevich, A., Saveliev, V., Vyahhi, N., & Tesler, G. (2013). QUAST: Quality assessment tool for genome assemblies. Bioinformatics, 29(8), 1072–1075. https://doi.org/10.1093/bioinformatics/btt086
+
+Kolmogorov, M., Yuan, J., Lin, Y., & Pevzner, P. A. (2019). Assembly of long, error-prone reads using repeat graphs. Nature Biotechnology, 37(5), 540–546. https://doi.org/10.1038/s41587-019-0072-8
+
+Munoz-Price, L. S., Poirel, L., Bonomo, R. A., Schwaber, M. J., Daikos, G. L., Cormican, M., Cornaglia, G., Garau, J., Gniadkowski, M., Hayden, M. K., Kumarasamy, K., Livermore, D. M., Mayo, M., Nordmann, P., Patel, J. B., Paterson, D. L., Pitout, J. D. D., Villegas, M. V., Wang, H., … Carmeli, Y. (2013). Clinical epidemiology of the global expansion of Klebsiella pneumoniae carbapenemases. The Lancet Infectious Diseases, 13(9), 785–796. https://doi.org/10.1016/S1473-3099(13)70190-7
+
+Pitout, J. D. D., & Nordmann, P. (2015). Carbapenemase-producing Klebsiella pneumoniae: A key pathogen set for global nosocomial dominance. Antimicrobial Agents and Chemotherapy, 59(10), 5873–5884. https://doi.org/10.1128/AAC.01019-15
+
