@@ -20,7 +20,7 @@ clinical-bioinformatics-case/
 │   ├── plasmidfinder/
 │   └── quast/
 ├── .gitignore
-├── findings.md
+├── clinical_case_report.md
 ├── note_to_professor_kilic.md
 ├── README.md
 └── REPRODUCIBILITY.md
