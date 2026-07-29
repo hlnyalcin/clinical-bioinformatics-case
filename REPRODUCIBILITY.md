@@ -46,11 +46,6 @@ The following software and resources were used during the analysis.
 
 - NCBI BLAST Web Interface (manual species identification)
 
-### Version control
-
-- Git
-- GitHub
-
 ## Running the Workflow
 
 After setting up the Ubuntu WSL environment, installing the required software with Miniconda, and placing the input FASTQ file in the `data/` directory, navigate to the `code` directory and run:
