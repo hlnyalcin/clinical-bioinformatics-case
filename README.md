@@ -32,18 +32,33 @@ clinical_case/
 
 ## Software and Online Resources
 
+The analysis was performed on **Ubuntu running through Windows Subsystem for Linux (WSL)**. Software dependencies were managed using **Miniconda** in a dedicated Conda environment (`clinical_amr`).
+
 The following software tools and online resources were used during the analysis:
+
+### Analysis environment
+
+- Windows Subsystem for Linux (WSL)
+- Ubuntu
+- Bash
+- Miniconda
+- Conda environment (`clinical_amr`)
+
+### Bioinformatics software
 
 - SeqKit
 - NanoPlot
 - Flye
 - QUAST
-- NCBI BLAST
 - MLST
 - AMRFinderPlus
 - PlasmidFinder
 - MOB-suite
 - Kleborate
+
+### Online resource
+
+- NCBI BLAST Web Interface (manual species identification)
 
 ## Running the Analysis
 
