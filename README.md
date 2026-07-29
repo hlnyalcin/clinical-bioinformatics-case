@@ -11,6 +11,7 @@ clinical_case/
 ├── code/
 │   └── run_analysis.sh
 ├── data/
+    └── unknown_isolate.fastq.gz
 ├── findings.md
 ├── README.md
 └── results/
@@ -43,6 +44,17 @@ The following software tools and online resources were used during the analysis:
 - PlasmidFinder
 - MOB-suite
 - Kleborate
+
+## Running the Analysis
+
+Clone the repository and navigate to the project root directory.
+
+Then run:
+
+```bash
+cd code
+bash run_analysis.sh
+```
 
 ## Workflow
 
