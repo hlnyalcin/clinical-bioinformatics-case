@@ -1,15 +1,16 @@
 # Clinical Case Report
 
 Overview
+
 The unknown Oxford Nanopore sequencing dataset was analyzed to identify the bacterial species, evaluate the quality of the genome assembly, determine the sequence type, and investigate antimicrobial resistance, plasmids, and virulence-related features. The workflow included genome assembly, assembly quality assessment, species identification, sequence typing, antimicrobial resistance analysis, plasmid characterization, and virulence profiling. Together, these analyses provided a comprehensive characterization of the isolate and its potential clinical significance.
 
 Read Quality Assessment
 
-Oxford Nanopore sequencing generated 260,294 reads containing 576,590,333 bases. The average read length was 2,215 bp, with an N50 of 15,932 bp. The average quality score was 20.25, and the GC content was 55.85%. These quality metrics indicated that the sequencing data were suitable for downstream genome assembly and genomic analyses.
+Oxford Nanopore sequencing generated 260,294 reads containing 576,590,333 bases. The average read length was 2,215 bp, with an N50 of 15,932 bp. The average quality score was 20.25, and the GC content was 55.85%. These quality metrics suggested that the sequencing data were suitable for downstream genome assembly and genomic analyses (Kolmogorov et al., 2019).
 
 Genome Assembly
 
-The sequencing reads were assembled using Flye, producing 12 contigs with a total assembly size of 5,896,334 bp. The largest contig was 5,306,074 bp, resulting in an assembly N50 of 5,306,074 bp. Assembly quality was evaluated with QUAST, which reported an L50 of 1 and no ambiguous bases (Ns), indicating a high-quality genome assembly suitable for downstream analyses.
+The sequencing reads were assembled using Flye, producing 12 contigs with a total assembly size of 5,896,334 bp. The largest contig was 5,306,074 bp, resulting in an assembly N50 of 5,306,074 bp. Assembly quality was evaluated with QUAST, which reported an L50 of 1 and no ambiguous bases (Ns), suggesting a high-quality genome assembly suitable for downstream analyses (Gurevich et al., 2013).
 
 Species Identification
 
