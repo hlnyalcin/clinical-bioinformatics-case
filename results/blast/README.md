@@ -1,0 +1,1 @@
+BLAST result screenshots are stored in this folder.
