@@ -7,21 +7,23 @@ This project analyzes an unknown bacterial isolate using Oxford Nanopore long-re
 ## Project Structure
 
 ```text
-clinical_case/
+clinical-bioinformatics-case/
 ├── code/
 │   └── run_analysis.sh
-├── data/
-    └── unknown_isolate.fastq.gz
+├── results/
+│   ├── amrfinder_results.tsv
+│   ├── blast/
+│   ├── flye/
+│   ├── kleborate/
+│   ├── mobsuite/
+│   ├── nanoplot/
+│   ├── plasmidfinder/
+│   └── quast/
+├── .gitignore
 ├── findings.md
+├── note_to_professor_kilic.md
 ├── README.md
-└── results/
-    ├── Flye/
-    ├── quast/
-    ├── nanoplot/
-    ├── amrfinder/
-    ├── plasmidfinder/
-    ├── mobsuite/
-    └── kleborate/
+└── REPRODUCIBILITY.md
 ```
 
 ## Input
