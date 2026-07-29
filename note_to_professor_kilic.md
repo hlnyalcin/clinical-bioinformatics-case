@@ -4,7 +4,7 @@ Dear Professor Kılıç,
 
 We identified the organism as Klebsiella pneumoniae, a bacterium that commonly causes healthcare-associated infections such as pneumonia, bloodstream infections, urinary tract infections, and wound infections.
 
-The sequencing results showed several antimicrobial resistance genes. Most importantly, the isolate carries the blaKPC-3 gene, which is associated with resistance to carbapenem antibiotics. Additional resistance genes suggest resistance to several other antibiotic classes, including beta-lactams, aminoglycosides, quinolones, sulfonamides, trimethoprim, fosfomycin, phenicols, and macrolides. Overall, these findings indicate that this is likely a multidrug-resistant isolate.
+The sequencing results showed several antimicrobial resistance genes. Most importantly, the isolate carries the blaKPC-3 gene, which is associated with resistance to carbapenem antibiotics. Additional resistance genes suggest resistance to several other antibiotic classes, including beta-lactams, aminoglycosides, quinolones, sulfonamides, trimethoprim, fosfomycin, phenicols, and macrolides. Overall, together, these findings indicate a multidrug-resistant genetic profile.
 
 For the patient, this means that many commonly used antibiotics may not work, so treatment options may be more limited. We also found that the blaKPC-3 gene is located on a plasmid, which means it has the potential to spread to other bacteria.
 
