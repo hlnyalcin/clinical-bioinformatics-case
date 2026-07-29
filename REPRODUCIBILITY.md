@@ -2,35 +2,34 @@
 
 ## Purpose
 
-This document describes how the analysis presented in this project can be repeated using the provided code and documentation. The workflow is implemented as a Bash shell script (`code/run_analysis.sh`), while the analysis, results, and interpretation are described in `findings.md` and `README.md`.
+This document explains how the analysis presented in this project can be repeated using the provided code and documentation. The workflow is implemented as a Bash shell script (`code/run_analysis.sh`), while the analysis steps, results, and interpretation are documented in `findings.md` and `README.md`.
 
 ## Analysis Environment
 
-The analysis was performed on **Ubuntu running through Windows Subsystem for Linux (WSL)** on a Windows computer. All command-line analyses were executed using the **Bash shell**, and software dependencies were managed with **Miniconda** in a dedicated Conda environment (`clinical_amr`).
+The analysis was performed on a Windows computer using **Ubuntu through Windows Subsystem for Linux (WSL)**. All command-line analyses were executed in the **Bash shell**, and software dependencies were managed with **Miniconda** in a dedicated Conda environment (`clinical_amr`).
 
 ## Input Data
 
-The workflow uses the following input file:
+The workflow uses the following Oxford Nanopore sequencing dataset:
 
-```
+```text
 data/unknown_isolate.fastq.gz
 ```
 
 The same input dataset should be used to repeat the analysis described in this project.
 
-## Required Software
+## Software and Resources
 
-The following software and resources were used during the analysis.
+### Analysis environment
 
-### Environment
-
+- Windows
 - Windows Subsystem for Linux (WSL)
 - Ubuntu
 - Bash
 - Miniconda
 - Conda environment (`clinical_amr`)
 
-### Bioinformatics tools
+### Bioinformatics software
 
 - SeqKit
 - NanoPlot
@@ -46,18 +45,23 @@ The following software and resources were used during the analysis.
 
 - NCBI BLAST Web Interface (manual species identification)
 
+### Version control
+
+- Git
+- GitHub
+
 ## Running the Workflow
 
-After setting up the Ubuntu WSL environment, installing the required software with Miniconda, and placing the input FASTQ file in the `data/` directory, navigate to the `code` directory and run:
+After setting up the Ubuntu WSL environment, creating the Conda environment, installing the required software, and placing the input FASTQ file in the `data/` directory, navigate to the `code` directory and run:
 
 ```bash
 cd code
 bash run_analysis.sh
 ```
 
-The script executes each analysis step sequentially and saves the generated output files in the `results/` directory.
+The script performs each analysis step sequentially and stores the generated output files in the `results/` directory.
 
-## Analysis Workflow
+## Workflow Summary
 
 The workflow consists of the following steps:
 
@@ -79,7 +83,7 @@ Species identification is the only manual step in the workflow. After genome ass
 Running the workflow generates:
 
 - Read quality assessment reports
-- Genome assembly
+- Genome assembly files
 - Assembly quality report
 - MLST sequence typing results
 - Antimicrobial resistance gene predictions
