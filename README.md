@@ -61,16 +61,23 @@ The following software tools and online resources were used during the analysis.
 ### Online resource
 
 - NCBI BLAST Web Interface (manual species identification)
+
 ## Running the Analysis
 
 Clone the repository and navigate to the project root directory.
 
-Then run:
+The workflow was developed and tested using Ubuntu through Windows Subsystem for Linux (WSL). Software dependencies were managed with Miniconda in a dedicated Conda environment (`clinical_amr`).
+
+Run the analysis using:
 
 ```bash
 cd code
 bash run_analysis.sh
 ```
+
+The script executes each analysis step sequentially and saves the generated output files in the `results/` directory.
+
+Species identification is performed manually using the NCBI BLAST web interface after genome assembly, as described in the report.
 
 ## Workflow
 
